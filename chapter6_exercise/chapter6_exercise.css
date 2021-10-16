@@ -8,22 +8,22 @@
   height: 800px; }
   .seasons-spring {
     height: calc(100% / 4);
-    background-image: url(img/chapter6-exercise/box1.jpg);
+    background-image: url(img/box1.jpg);
     background-size: cover;
     background-position: center; }
   .seasons-summer {
     height: calc(100% / 4);
-    background-image: url(img/chapter6-exercise/box2.jpg);
+    background-image: url(img/box2.jpg);
     background-size: cover;
     background-position: center; }
   .seasons-autumn {
     height: calc(100% / 4);
-    background-image: url(img/chapter6-exercise/box3.jpg);
+    background-image: url(img/box3.jpg);
     background-size: cover;
     background-position: center; }
   .seasons-winter {
     height: calc(100% / 4);
-    background-image: url(img/chapter6-exercise/box4.jpg);
+    background-image: url(img/box4.jpg);
     background-size: cover;
     background-position: center; }
 
