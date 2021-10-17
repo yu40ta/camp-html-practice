@@ -125,19 +125,43 @@ ul {
       flex-flow: column;
       justify-content: space-around; }
       .main-contents_sidebar_box-popular-text {
-        margin-top: 20px; }
-      .main-contents_sidebar_box-popular-text:first-child {
-        margin-top: 0px; }
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #f7f7f7; }
+      .main-contents_sidebar_box-popular-text:first-child, .main-contents_sidebar_box-popular-text:last-child {
+        padding: 0;
+        margin: 0;
+        border: none; }
     .main-contents_sidebar_box-instagram {
       padding: 50px 0;
       text-align: center; }
       .main-contents_sidebar_box-instagram-image {
         width: 100px;
-        height: 100px; }
+        height: 100px;
+        background-size: cover;
+        background-position: center; }
+      .main-contents_sidebar_box-instagram-image:nth-child(1) {
+        background-image: url(img/airport.jpg); }
+      .main-contents_sidebar_box-instagram-image:nth-child(2) {
+        background-image: url(img/japan.jpg); }
+      .main-contents_sidebar_box-instagram-image:nth-child(3) {
+        background-image: url(img/snow.jpg); }
+      .main-contents_sidebar_box-instagram-image:nth-child(4) {
+        background-image: url(img/japan2.jpg); }
+      .main-contents_sidebar_box-instagram-image:nth-child(5) {
+        background-image: url(img/lake.jpg); }
+      .main-contents_sidebar_box-instagram-image:nth-child(6) {
+        background-image: url(img/road.jpg); }
     .main-contents_sidebar_box-category {
       padding: 50px 0 50px 10px; }
       .main-contents_sidebar_box-category-text {
-        margin-top: 10px; }
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #f7f7f7; }
+      .main-contents_sidebar_box-category-text:last-child {
+        padding: 0;
+        margin: 0;
+        border: none; }
 
 .footer {
   width: 100%;

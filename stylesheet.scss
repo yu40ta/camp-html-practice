@@ -155,11 +155,15 @@ ul {
         flex-flow: column;
         justify-content: space-around;
         &-text {
-          margin-top: 20px;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #f7f7f7;;
         }
-        &-text:first-child {
-          margin-top: 0px;
-        }  
+        &-text:first-child, &-text:last-child {
+          padding: 0;
+          margin: 0;
+          border: none;
+        }
       }
       &-instagram {
         padding: 50px 0;
@@ -167,12 +171,39 @@ ul {
         &-image {
           width: 100px;
           height: 100px;
+          background-size: cover;
+          background-position: center;
+        }
+        &-image:nth-child(1) {
+          background-image: url(img/airport.jpg);
+        }
+        &-image:nth-child(2) {
+          background-image: url(img/japan.jpg);
+        }
+        &-image:nth-child(3) {
+          background-image: url(img/snow.jpg);
+        }
+        &-image:nth-child(4) {
+          background-image: url(img/japan2.jpg);
+        }
+        &-image:nth-child(5) {
+          background-image: url(img/lake.jpg);
+        }
+        &-image:nth-child(6) {
+          background-image: url(img/road.jpg);
         }
       }
       &-category {
         padding: 50px 0 50px 10px;
         &-text {
-          margin-top: 10px;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #f7f7f7;;
+        }
+        &-text:last-child {
+          padding: 0;
+          margin: 0;
+          border: none;
         }
       }
     }
