@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
   color: #6c6b6b;
 }
 
@@ -77,14 +76,17 @@ ul {
       border-bottom: 8px solid #f7f7f7;
       text-align: center;
       line-height: 0.6;
+      margin-bottom: 50px;
     }
     &-recent {
       display: flex;
       align-items: center;
-      margin-top: 50px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #f7f7f7;
       &-thumbnail {
         width: 270px;
-        height: 200px;
+        height: 180px;
         margin-right: 20px;
       }
       &-body {
@@ -100,6 +102,7 @@ ul {
             height: 40px;
             line-height: 40px;
             padding-right: 16px;
+            font-size: 12px;
           }
           &-category {
             width: 80px;
