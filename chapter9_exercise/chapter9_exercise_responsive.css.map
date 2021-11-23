@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,qCAAsC;EACpC,SAAU;IACR,UAAU,EAAE,UAAU;IACtB,KAAK,EAAE,IAAI;IACX,OAAO,EAAE,SAAS",
+"sources": ["chapter9_exercise_responsive.scss"],
+"names": [],
+"file": "chapter9_exercise_responsive.css"
+}

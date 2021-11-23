@@ -1,0 +1,8 @@
+// 1024px 以下
+@media screen and (max-width: 1024px) {
+  .contents {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 30px;
+  }
+}
