@@ -1,0 +1,101 @@
+// 1024px 以下
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  .main-visual {
+    &_box {
+      width: 100%;
+    }
+  }
+  .main-contents {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    &_blog {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 24px;
+      &-recent {
+        &-thumbnail {
+          width: 100%;
+        }
+      }
+    }
+    &_pagenation {
+      width: 50%;
+      justify-content: space-between;
+      margin-top: 50px;
+      box-sizing: border-box;
+    }
+    &_sidebar {
+      width: 100%;
+      margin-top: 70px;
+      padding: 0 24px;
+      box-sizing: border-box;
+      &_box {
+        &-popular {
+          &-text:first-child {
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #f7f7f7;;
+          }
+        }
+        &-instagram {
+          padding: 50px 50px;
+        }
+      }
+    }
+  }
+}
+
+// 768px 以下
+@media screen and (max-width: 768px) {
+  .main-contents {
+    &_pagenation {
+      width: 75%;
+    }
+  }
+}
+
+// 520px 以下
+@media screen and (max-width: 520px) {
+  .header {
+    &-social {
+      right: 11px;
+    }
+    &-social i {
+      margin-left: 10px;
+    }
+  }
+  .main-contents {
+    &_blog {
+      &-recent {
+        &-body {
+          padding-left: 6px;
+          &-title {
+            font-size: 16px;
+          }
+          &-info {
+            &-date {
+              font-size: 10px;
+            }
+            &-category {
+              width: 60px;
+              height: 30px;
+              line-height: 30px;
+              margin-top: 4px;
+              &-text {
+                font-size: 12px;
+                font-weight: bold;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
